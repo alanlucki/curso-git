@@ -66,6 +66,14 @@
         </tr>        
         <tr>
             <td>
+                git log --oneline --decorate
+            </td>
+            <td>
+                lista todos los commits resumidos en una linea cada uno, con su punteros
+            </td>
+        </tr>        
+        <tr>
+            <td>
                 git diff [ nombre del archivo ]
             </td>
             <td>
@@ -97,6 +105,64 @@
                 revierte todos los que se eencuentran en el stage en determinado archivos                
             </td>
         </tr>             
+        <tr>
+            <td>
+                git reset [ hash del commit ]
+            </td>
+            <td>
+                revierte el repositorio al commit indicado como parámetro               
+            </td>
+        </tr>             
+        <tr>
+            <td>
+                git reset hard [ hash del commit ]
+            </td>
+            <td>
+                restaura el repositorio sin guardar los cambios en el stage               
+            </td>
+        </tr>             
+        <tr>
+            <td>
+                git reset hard [ hash del commit ]
+            </td>
+            <td>
+                restaura el repositorio sin guardar los cambios en el stage               
+            </td>
+        </tr>             
+        <tr>
+            <td>
+                git reset soft [ hash del commit ]
+            </td>
+            <td>
+                restaura el repositorio y guarda los cambios en el stage            
+            </td>
+        </tr>
+        <tr>
+            <td>
+                git diff [ hash del commit ] [ hash del commit ]
+            </td>
+            <td>
+                muestra la diferencia entre 02 commits
+            </td>
+        </tr>        
+        <tr>
+            <td>
+                git diff HEAD~1 HEAD
+            </td>
+            <td>
+                muestra la diferencia entre el commit donde apunta 1 antes al HEAD contra el HEAD 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                git revert [ hash del commit ]
+            </td>
+            <td>
+                revierte las acciones realizadas en el commit indicado, con acciones exactamente opuestas
+            </td>
+        </tr>    
     </table>
 </body>
 </html>
+
+commit 01
