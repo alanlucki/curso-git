@@ -82,10 +82,10 @@
         </tr>        
         <tr>
             <td>
-                git log --oneline --graph --decorate
+                git log --oneline --all --graph --decorate
             </td>
             <td>
-                lista todos los commits resumidos en una linea cada uno, en un grafo y sus punteros
+                lista todos los commits resumidos en una linea cada uno, en un grafo y sus b  punteros
             </td>
         </tr>        
         <tr>
@@ -185,9 +185,66 @@
                 revierte las acciones realizadas en el commit indicado, con acciones exactamente opuestas, sin registrar un nuevo commit
             </td>
         </tr>    
+        <tr>
+            <td>
+                git branch
+            </td>
+            <td>
+                lista las ramas
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                git branch [nombre de rama nueva]
+            </td>
+            <td>
+                crea una nueva rama a partir de la rama en la que actualmente nos ubicamos
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                git checkout [nombre de rama]
+            </td>
+            <td>
+                cambia a la rama [nombre de rama]
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                git checkout -b [nombre de rama nueva]
+            </td>
+            <td>
+                crea la rama [nombre de rama nueva] y nos ubica en dicha rama
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                git branch -m [nombre antiguo de rama]  [nombre nuevo de rama]
+            </td>
+            <td>
+                cambia el nombre de la rama [nombre antiguo de rama] por [nombre nuevo de rama]
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                git branch -d [nombre de rama]
+            </td>
+            <td>
+                elimina rama [nombre de rama]
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                git branch -h
+            </td>
+            <td>
+                lista los comandos que se pueden utilizar con branch
+            </td>
+        </tr>    
     </table>
 </body>
 </html>
+<<<<<<< HEAD
 
 <!--cambios en la rama nueva 02-->
 <!--cambios en la rama nueva 02-->
@@ -199,3 +256,5 @@
 <!--cambios en la rama nueva 02-->
 >>>>>>> nueva-rama-04
 <!--cambios en la rama nueva 02-->
+=======
+>>>>>>> master
