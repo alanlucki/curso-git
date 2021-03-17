@@ -241,6 +241,54 @@
                 lista los comandos que se pueden utilizar con branch
             </td>
         </tr>    
+        <tr>
+            <td>
+                git config --global alias.lodag 'log --oneline --decorate --all --graph'
+            </td>
+            <td>
+                crear alias lodag
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                git config --global --get-regexp alias
+            </td>
+            <td>
+                lista todos los alias creados
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                git config --global --unset alias.[nombre de alias]
+            </td>
+            <td>
+                eliminar alias
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                git merge [ nombre-rama ]
+            </td>
+            <td>
+                mezcla la rama actual con la rama [ nombre-rama ]
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                git merge --abort
+            </td>
+            <td>
+                revierte el merge
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                git tag [ hash commit ]
+            </td>
+            <td>
+                se establece un alias al commit, el cual se supede utilizar para accederlo
+            </td>
+        </tr>    
     </table>
 </body>
 </html>
